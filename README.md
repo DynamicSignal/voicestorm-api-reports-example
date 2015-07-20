@@ -8,7 +8,7 @@ While you can use the stock VoiceStorm manager and member hub with any VoiceStor
 This test package includes server to server calls to get reports and users related to those reports as below:
 
 <ol>
-<li>Authenticate server side.</li><li>Look up reports in VoiceStorm by start and end date.</li><li>If there are reports generated within the given dates get the users information such as display name, profile image.</li><li>Display the reports in a table.</li><li>5.	Able to change the columns and the number of rows to be displayed.</li>
+<li>Authenticate server side.</li><li>Look up reports in VoiceStorm by start and end date.</li><li>If there are reports generated within the given dates get the users information such as display name, profile image.</li><li>Display the reports in a table.</li><li>Able to change the columns and the number of rows to be displayed.</li>
 </ol>
 
 You can use it as an example/guide to display reports data to members or to use internally. This test package can be extended in many ways as you want like, adding the ability to choose custom start and end date by the user etc.
