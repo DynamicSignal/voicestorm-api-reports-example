@@ -13,7 +13,7 @@ This test package includes server to server calls to get reports and users relat
 
 You can use it as an example/guide to display reports data to members or to use internally. This test package can be extended in many ways as you want like, adding the ability to choose custom start and end date by the user etc.
 
-##Download, install, and run to sync user data:
+##Download, install, and run to display reports:
 
 To display reports data of your own VoiceStorm instance, you will need to download the sample code and modify it to point at your own VoiceStorm instance. The guide below will walk you through this process in 4 steps:
 
