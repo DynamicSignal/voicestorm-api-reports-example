@@ -145,7 +145,7 @@ require_once "functions.php";
                 </div>
                 <?php
                 //Make server call for Reports only if the file is older than hour
-                if (file_exists($GLOBALS['reportCache'] . '/' . $duration) && time() - filemtime($GLOBALS['reportCache'] . '/' . $duration) < 1 * 3600)
+                if (file_exists($GLOBALS['reportCache'] . '/' . $duration . '.csv') && time() - filemtime($GLOBALS['reportCache'] . '/' . $duration . '.csv') < 1 * 3600)
                 {
                     $response = "Success";
                 }
