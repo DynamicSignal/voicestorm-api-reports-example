@@ -236,6 +236,7 @@ function createRows($duration, $rowCount)
                     $display.= $tableHead;
                 }
                 $display.="<tr>";
+                $displayCount++;
                 foreach ($displayColumns as $field)
                 {
                     if ($field === 0) // 'Member' field with 'Member URL'
@@ -244,7 +245,7 @@ function createRows($duration, $rowCount)
 
                         if ($fc->get($userId))
                         {
-                            $displayCount++;
+                            
                             $user = $fc->get($userId);
                             if (array_key_exists('Square40', $user['profilePictureImages']))
                             {
